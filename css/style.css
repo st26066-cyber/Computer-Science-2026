@@ -39,19 +39,61 @@ h2{
 }
 
 @media screen and (max-width: 922px) {
-    header{
-        background-color:lightblue;
+
+    .container {
+        max-width: 95%;
     }
-    header{
-        font-size: 50px;
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1, h2 {
+        font-size: 32px;
+    }
+
+    .welcome-section img {
+        width: 500px;
+        height: auto;
     }
 }
 
 @media screen and (max-width: 600px) {
-    header{
-        background-color:lightblue;
+
+    .container {
+        max-width: 100%;
+        padding: 10px;
+        text-align: center;
     }
-    header{
-        font-size: 30px;
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
     }
+
+    .nav-section ul {
+        padding: 0;
+    }
+
+    .nav-section li {
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    h1, h2 {
+        font-size: 26px;
+    }
+
+    .welcome-section img {
+        max-width: 95%;
+        height: auto;
+    }
+}
+
+.container {
+    text-align: center;      /* centers all text */
+    max-width: 1000px;        /* keeps layout tidy */
+    margin: 0 auto;          /* centers the whole container */
 }
