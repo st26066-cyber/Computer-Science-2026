@@ -1,4 +1,4 @@
-
+/* BODY → LATO */
 Body{
     font-family: 'Lato', sans-serif;
 }
@@ -7,6 +7,7 @@ body{
     Background-color: #F6A45B;
 }
 
+/* HEADER */
 header{
 background-color:#f48b2f;
 display: flex;
@@ -15,6 +16,7 @@ align-items: center;
 padding: 10px 30px;
 }
 
+/* NAV ITEMS → POPPINS */
 header li{
 display: inline-block;
 margin: 20px;
@@ -28,6 +30,7 @@ text-decoration: none;
 color: black;
 }
 
+/* HEADINGS → POPPINS */
 h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -38,6 +41,7 @@ h2{
     font-weight: 600;
 }
 
+/* RESPONSIVE */
 @media screen and (max-width: 922px) {
 
     .container {
@@ -96,4 +100,26 @@ h2{
     text-align: center;      /* centers all text */
     max-width: 1000px;        /* keeps layout tidy */
     margin: 0 auto;          /* centers the whole container */
+}
+
+.welcome-section img {
+    width: 600px;     /* make it longer/wider */
+    height: auto;     /* keeps quality */
+    display: block;   /* removes weird spacing under the image */
+    margin: 0 auto;   /* centers the image */
+}
+
+.overview h2{
+     font-family: 'Poppins', sans-serif;   /* heading font style */
+    font-weight: 600;                     /* medium‑bold heading */
+    margin-bottom: 10px;                  /* space under the heading */
+}
+
+
+.overview p {
+    font-family: 'Lato', sans-serif;  /* paragraph font style */
+    font-size: large;                 /* easy‑to‑read text size */
+    color:gray;                     /* soft grey text colour */
+    max-width: 700px;                 /* keeps lines from getting too long */
+    margin: 0 auto;                   /* centers the paragraph block */
 }
