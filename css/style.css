@@ -98,7 +98,6 @@ h2{
 
 .container {
     text-align: center;      /* centers all text */
-    max-width: 1000px;        /* keeps layout tidy */
     margin: 0 auto;          /* centers the whole container */
 }
 
