@@ -25,3 +25,151 @@ header a{
 text-decoration: none;
 color: black;
 }
+
+/* RESPONSIVE */
+@media screen and (max-width: 922px) {
+
+    .container {
+        max-width: 95%;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1, h2 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        max-width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav-section ul {
+        padding: 0;
+    }
+
+    .nav-section li {
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    h1, h2 {
+        font-size: 26px;
+    }
+}
+
+/* BODY ~ LATO */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color:#F6A45B;
+}
+
+/* HEADER */
+header {
+    background-color: #f48b2f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* NAV ITEMS → POPPINS */
+header li{
+display: inline-block;
+margin: 20px;
+font-family:'Poppins', sans-serif;
+font-size: large;
+font-weight: bold;
+}
+
+header a{
+text-decoration: none;
+color: black;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 922px) {
+
+    .container {
+        max-width: 95%;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1, h2 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        max-width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav-section ul {
+        padding: 0;
+    }
+
+    .nav-section li {
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    h1, h2 {
+        font-size: 26px;
+    }
+}
+
+/* Contact form container */
+.contact {
+width: 500px;      /* Makes the form 500px wide */
+margin: 0 auto;    /* Centres the form on the page */
+}
+
+/* Styles for text boxes and message area */
+input,
+textarea {
+width: 100%;              /* Makes fields fill the container */
+padding: 8px;             /* Adds space inside the fields */
+margin-bottom: 10px;      /* Adds space below each field */
+}
+
+button {
+padding: 10px;                 /* Adds space inside the button */
+background-color: orange;    /* Makes the button orange */
+color:azure;                /* Makes the text white */
+border: none;                  /* Removes the default border */
+}
+
+.container {
+    text-align: center;      /* centers all text */
+    margin: 0 auto;          /* centers the whole container */
+}
