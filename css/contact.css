@@ -1,5 +1,11 @@
+/* BODY */
+body{
+    Background-color: #F6A45B;
+}
+
+/* HEADER */
 header{
-background-color: lightblue;
+background-color: #f48b2f;
 display:
 flex;
 justify-content: space-between;
