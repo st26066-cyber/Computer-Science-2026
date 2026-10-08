@@ -33,6 +33,13 @@ header a:hover {
 color: #8b4513;
 }
 
+h1, h2{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body, p, label, input, textarea, button {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 /* RESPONSIVE */
 @media screen and (max-width: 922px) {
@@ -46,7 +53,7 @@ color: #8b4513;
         align-items: center;
     }
 
-    h1, h2 {
+    h2 {
         font-size: 32px;
     }
 }
@@ -74,34 +81,70 @@ color: #8b4513;
         font-size: 18px;
     }
 
-    h1, h2 {
+    h2 {
         font-size: 26px;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    button {
+        display: block;
+        margin: 10px auto;
     }
 }
 
 
 /* Contact form container */
 .contact {
-width: 500px;      /* Makes the form 500px wide */
-margin: 0 auto;    /* Centres the form on the page */
+width: 80px;     
+margin: 0 auto;    
 }
 
 /* Styles for text boxes and message area */
 input,
 textarea {
-width: 100%;              /* Makes fields fill the container */
-padding: 8px;             /* Adds space inside the fields */
-margin-bottom: 10px;      /* Adds space below each field */
+width: 100%;              
+padding: 14px; 
+border: 1px solid #ddd;  
+border-radius: 10px;          
+font-size: 16px;
+box-sizing: border-box;
+margin-bottom: 15px; 
 }
 
 button {
-padding: 10px;                 /* Adds space inside the button */
-background-color: orange;    /* Makes the button orange */
-color:azure;                /* Makes the text white */
-border: none;                  /* Removes the default border */
+background-color: #f77503;
+color: white;
+border: none;
+padding: 14px 30px;
+border-radius: 10px;
+font-size: 16px;
+cursor: pointer;
+display: block;
+margin: 20px auto; 
+transition: 0.3s;               
 }
 
-.container {
-    text-align: center;      /* centers all text */
-    margin: 0 auto;          /* centers the whole container */
+button:hover {
+background-color: #d1680c;
+}
+
+.contact-container {
+   text-align: center;
+   background-color: #f48b2f;
+   padding: 20px;
+   border-radius: 20px;
+
+   width: 90%;
+   max-width: 700px;
+
+   margin: 20px auto;
+
+   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+
+   box-sizing: border-box;
 }
