@@ -25,20 +25,28 @@ font-size: large;
 font-weight: bold;
 }
 
-header a{
+header a {
 text-decoration: none;
-color: black;
+color: #2c1a0d;
+font-size: 18px;
+transition: 0.3s;
+}
+
+header a:hover {
+color: #8b4513;
 }
 
 /* HEADINGS → POPPINS */
-h1{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+h2 {
+font-family: 'Cormorant Garamond', serif;
+font-weight: 700;
+letter-spacing: 1px;
 }
 
-h2{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+h2 {
+font-size: 36px;
+letter-spacing: 1px;
+color: #2c1a0d;
 }
 
 /* RESPONSIVE */
@@ -53,7 +61,7 @@ h2{
         align-items: center;
     }
 
-    h1, h2 {
+    h2 {
         font-size: 32px;
     }
 
@@ -86,7 +94,7 @@ h2{
         font-size: 18px;
     }
 
-    h1, h2 {
+    h2 {
         font-size: 26px;
     }
 
@@ -96,20 +104,29 @@ h2{
     }
 }
 
+
 .container {
     text-align: center;      /* centers all text */
     margin: 0 auto;          /* centers the whole container */
 }
 
 .welcome-section img {
-    width: 600px;     /* make it longer/wider */
+    width: 600px;
+    max-width: 95%;    /* make it longer/wider */
     height: auto;     /* keeps quality */
     display: block;   /* removes weird spacing under the image */
-    margin: 0 auto;   /* centers the image */
+    margin: 0 auto;
+    border-radius: 10px;  
+}
+
+.welcome-section p {
+    font-family: 'lora', serif;  /* paragraph font style */
+    font-size: medium;     
+    color:#2c1a0d        /* easy‑to‑read text size */
 }
 
 .overview h2{
-     font-family: 'Poppins', sans-serif;   /* heading font style */
+    font-family: 'Poppins', sans-serif;   /* heading font style */
     font-weight: 600;                     /* medium‑bold heading */
     margin-bottom: 10px;                  /* space under the heading */
 }
