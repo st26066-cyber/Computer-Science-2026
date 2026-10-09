@@ -1,6 +1,11 @@
 /* BODY */
+Body{
+    font-family: 'Inter', sans-serif;
+}
+
 body {
     background-color:#F6A45B;
+    margin: 0;
 }
 
 /* HEADER */
@@ -98,6 +103,12 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
 /* Contact form container */
+
+.container {
+    text-align: center;      /* centers all text */
+    margin: 0 auto;          /* centers the whole container */
+}
+
 .contact {
 width: 80px;     
 margin: 0 auto;    

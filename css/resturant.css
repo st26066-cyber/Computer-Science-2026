@@ -101,6 +101,11 @@ color: #8b4513;
     }
 }
 
+.container {
+    text-align: center;      /* centers all text */
+    margin: 0 auto;          /* centers the whole container */
+}
+
 .restaurant-section {
 display: flex;
 flex-direction: column;
