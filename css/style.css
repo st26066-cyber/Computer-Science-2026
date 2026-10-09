@@ -1,10 +1,11 @@
-/* BODY → LATO */
+/* BODY */
 Body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 body{
     Background-color: #F6A45B;
+    margin: 0;
 }
 
 /* HEADER */

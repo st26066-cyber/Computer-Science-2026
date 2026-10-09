@@ -4,13 +4,12 @@ body {
 }
 
 /* HEADER */
-header {
-    background-color:#f48b2f;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    border-radius: 15px;
+header{
+background-color:#f48b2f;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 30px;
 }
 
 /* NAV ITEMS → POPPINS */
