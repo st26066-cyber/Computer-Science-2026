@@ -3,48 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Main CSS file linked to style.css -->
-<link rel="stylesheet" href="../css/style.css">
-
+    <title>The Rice Bowl House</title>
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+    
+    <!-- Header section: logo + navigation -->
+    <header>
+      <!-- Website logo -->
+      <div class="logo">
+        <img src="../images/Logo-food-website.gif.png" alt="The Rice Bowl House Logo" width="300"> 
+      </div>
 
-  <!-- Main container for layout -->
-<div class="container">
+      <!-- Hamburger Button -->
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
 
-  <!-- Header section: logo + navigation -->
-<header>
+      <!-- Navigation menu -->
+      <div class="nav-section" id="navMenu"> 
+        <ul>
+          <li><a href="index.html">About us</a></li>
+          <li><a href="Menu.html">Menu</a></li>
+          <li><a href="restaurant.html">restaurant</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      
+    </header>
 
-  <!-- website logo -->
-  <div class="logo">
-    <img src="../images/Logo-food-website.gif.png" alt="The Rice Bowl House Logo" width="300">
-  </div>
+    <!-- Main container for layout -->
+  <div class="container">
 
-  <!-- Navigation menu -->
-  <div class="nav-section">
-    <ul>
-      <li><a href="index.html">About us</a></li>
-      <li><a href="menu.html">Menu</a></li>
-      <li><a href="resturant.html">Resturant</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
+    <!-- Welcome section: heading + main image -->
+    <div class="welcome-section">
+      <h2>Welcome To The Rice Bowl House!</h2>
+      <img src="../images/The Rice Bowl House.gif" alt="Rice Bowl House">
+      <p>Serving fresh, flavourful Asian cuisine made with love and tradition.</p>
     </div>
 
-</header>
+    <!-- OVERVIEW SECTION -->
+    <section class="overview">
+      <h2>About Our Restaurant</h2>
+      <p>At The Rice Bowl House, we serve proper Asian comfort food. Dumplings, noodles, fried rice, pork buns, spring rolls, and heaps more, all cooked fresh using recipes our chefs know by heart.</p>
+    </section>
 
-<!-- Welcome section: heading + main image -->
- <div class="welcome-section">
-  <h2>Welcome to The Rice Bowl House!</h2>
-  <img src="../images/The Rice Bowl House.gif" alt="Rice Bowl House">
-  <p>Serving fresh, flavourful Asian cuisine made with love and tradition.</p>
-</div>
+  </div> <!-- End of .container -->
 
-<!-- OVERVIEW SECTION -->
-<section class="overview">
-<h2>About Our Restaurant</h2>
-            <p>At The Rice Bowl House, we serve proper Asian comfort food. Dumplings, noodles, fried rice, pork buns, spring rolls, and heaps more, all cooked fresh using recipes our chefs know by heart.</p>
-        </section>
-    </div>
+  <!-- JavaScript at the bottom -->
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById("navMenu");
+      if (nav) {
+        nav.classList.toggle("show");
+      }
+    }
+  </script>
 </body>
 </html>

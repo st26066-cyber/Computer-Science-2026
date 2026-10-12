@@ -50,6 +50,13 @@ letter-spacing: 1px;
 color: #2c1a0d;
 }
 
+/* Base styles for hamburger button (desktop) */
+.hamburger {
+  display: none; /* Hidden on desktop */
+  font-size: 30px;
+  cursor: pointer;
+}
+
 /* RESPONSIVE */
 @media screen and (max-width: 922px) {
 
@@ -58,18 +65,47 @@ color: #2c1a0d;
     }
 
     header {
-        flex-direction: column;
-        align-items: center;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Required for absolute positioning of hamburger */
+    padding: 10px 0;
+  }
 
-    h2 {
-        font-size: 32px;
-    }
+  /* Center the logo */
+  .logo {
+    text-align: center;
+  }
 
-    .welcome-section img {
-        width: 500px;
-        height: auto;
-    }
+  /* Position hamburger button on the top right */
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 15px; /* Aligns icon near the top right edge */
+    transform: none; /* Removes vertical centering */
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  /* Full width container for dropdown navigation */
+  .nav-section {
+    display: none;
+    width: 100%;
+  }
+
+  /* Show navigation menu when JS toggles 'show' */
+  .nav-section.show {
+    display: block;
+  }
+
+  .nav-section ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 10px 0;
+  }
 }
 
 @media screen and (max-width: 600px) {
