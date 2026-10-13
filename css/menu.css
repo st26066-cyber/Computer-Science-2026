@@ -37,6 +37,13 @@ header a:hover {
 color: #8b4513;
 }
 
+/* Base styles for hamburger button (desktop) */
+.hamburger {
+  display: none; /* Hidden on desktop */
+  font-size: 30px;
+  cursor: pointer;
+}
+
 /* RESPONSIVE */
 @media screen and (max-width: 922px) {
 
@@ -44,14 +51,48 @@ color: #8b4513;
         max-width: 95%;
     }
 
-    header {
-        flex-direction: column;
-        align-items: center;
-    }
+     header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Required for absolute positioning of hamburger */
+    padding: 10px 0;
+  }
 
-    h2 {
-        font-size: 32px;
-    }
+  /* Center the logo */
+  .logo {
+    text-align: center;
+  }
+
+  /* Position hamburger button on the top right */
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 15px; /* Aligns icon near the top right edge */
+    transform: none; /* Removes vertical centering */
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  /* Full width container for dropdown navigation */
+  .nav-section {
+    display: none;
+    width: 100%;
+  }
+
+  /* Show navigation menu when JS toggles 'show' */
+  .nav-section.show {
+    display: block;
+  }
+
+  .nav-section ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 10px 0;
+  }
 }
 
 @media screen and (max-width: 600px) {

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/resturant.css">
+    <link rel="stylesheet" href="../css/restaurant.css">
 </head>
 <body>
 
@@ -19,17 +19,21 @@
     <img src="../images/Logo-food-website.gif.png" alt="The Rice Bowl House Logo" width="300"> 
   </div>
 
-<!-- Navigation menu -->
-  <div class="nav-section">
-    <ul>
-      <li><a href="index.html">About us</a></li>
-      <li><a href="Menu.html">Menu</a></li>
-      <li><a href="resturant.html">resturant</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-    </div>
+ <!-- Hamburger Button -->
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
 
-</header>
+      <!-- Navigation menu -->
+      <div class="nav-section" id="navMenu"> 
+        <ul>
+          <li><a href="index.html">About us</a></li>
+          <li><a href="Menu.html">Menu</a></li>
+          <li><a href="restaurant.html">restaurant</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      
+    </header>
+
 
 
 <div class="restaurant-section">
@@ -53,8 +57,17 @@ including dumplings, noodles, fried rice, and soups.
 <p><strong>Opening Hours:</strong> 10:00am - 9:00pm</p>
 
 </div>
-
 </div>
 
+<!-- JavaScript at the bottom -->
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById("navMenu");
+      if (nav) {
+        nav.classList.toggle("show");
+      }
+    }
+  </script>
+  
 </body>
 </html>
