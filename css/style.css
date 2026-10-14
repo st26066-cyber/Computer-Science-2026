@@ -4,13 +4,13 @@ Body{
 }
 
 body{
-    Background-color: #F6A45B;
+    Background-color: #1e1e1e;
     margin: 0;
 }
 
 /* HEADER */
 header{
-background-color:#f48b2f;
+background-color:#f5f0e6;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -47,7 +47,7 @@ letter-spacing: 1px;
 h2 {
 font-size: 36px;
 letter-spacing: 1px;
-color: #2c1a0d;
+color: #6b1f1f;
 }
 
 /* Base styles for hamburger button (desktop) */
@@ -157,9 +157,9 @@ color: #2c1a0d;
 }
 
 .welcome-section p {
-    font-family: 'lora', serif;  /* paragraph font style */
+    font-family: 'Lora', serif;  /* paragraph font style */
     font-size: medium;     
-    color:#2c1a0d        /* easy‑to‑read text size */
+    color:#5a4a42;       /* easy‑to‑read text size */
 }
 
 .overview h2{
@@ -170,9 +170,9 @@ color: #2c1a0d;
 
 
 .overview p {
-    font-family: 'Lato', sans-serif;  /* paragraph font style */
+    font-family: 'Lora', sans-serif;  /* paragraph font style */
     font-size: large;                 /* easy‑to‑read text size */
-    color:gray;                     /* soft grey text colour */
+    color:#4e3d35;                     /* soft grey text colour */
     max-width: 700px;                 /* keeps lines from getting too long */
     margin: 0 auto;                   /* centers the paragraph block */
 }
