@@ -4,13 +4,13 @@ Body{
 }
 
 body{
-    Background-color: #F6A45B;
+    Background-color: #1e1e1e;
     margin: 0;
 }
 
 /* HEADER */
 header{
-background-color:#f48b2f;
+background-color:#f5f0e6;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -134,8 +134,10 @@ color: #8b4513;
 }
 
 .menu h1 {
+    font-family: 'Cormorant Garamond', serif;  /* heading font style */
     font-size: 40px;
     margin-bottom: 30px;
+    color: #6b1f1f;
 }
 
 .menu-container {
@@ -147,7 +149,7 @@ color: #8b4513;
 
 .card {
     width: 280px;
-    background: #f48b2f;
+    background: #f5f0e6;
     border-radius: 15px;
     overflow: hidden;
     padding-bottom: 20px;
@@ -160,10 +162,12 @@ color: #8b4513;
 }
 
 .card h3 {
+    color: #5a4a42;
     margin-top: 15px;
 }
 
 .card p {
+    color: #5a4a42;
     padding: 0 15px;
 }
 

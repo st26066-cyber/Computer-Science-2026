@@ -3,14 +3,14 @@ Body{
     font-family: 'Inter', sans-serif;
 }
 
-body {
-background-color:#F6A45B;
-margin: 0;
+body{
+    Background-color: #1e1e1e;
+    margin: 0;
 }
 
 /* HEADER */
 header{
-background-color:#f48b2f;
+background-color:#f5f0e6;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -159,7 +159,7 @@ flex-direction: column;
 align-items: center;
 gap: 40px;
 
-background: #f48b2f;
+background: #f5f0e6;
 padding: 40px;
 border-radius: 20px;
 
@@ -179,7 +179,7 @@ box-shadow: 0 6px 20px rgba(0,0,0,0.1);
 
 h2{
     font-family: 'Playfair Display', serif;
-    color: #2c1a0d;
+    color: #6b1f1f;
     text-align: center;
 }
 
@@ -191,7 +191,7 @@ p{
     font-family: 'Lora', serif;
     font-size: 18px;
     line-height: 1.8;
-    color: #555;
+    color: #5a4a42;
     text-align: center;
 }
 
