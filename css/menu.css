@@ -93,7 +93,12 @@ color: #8b4513;
     gap: 10px;
     padding: 10px 0;
   }
+
+   .menu-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
+
 
 @media screen and (max-width: 600px) {
 
@@ -121,6 +126,16 @@ color: #8b4513;
     h2 {
         font-size: 26px;
     }
+
+    .menu-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    .card {
+        width: 100%;
+        max-width: 280px;
+    }
 }
 
 .container {
@@ -140,15 +155,20 @@ color: #8b4513;
     color: #6b1f1f;
 }
 
-.menu-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 10px 0;
+  width: 100%;
+  max-width: 1500px; /* Constrains max width so columns don't stretch edge-to-edge */
+  margin: 0 auto;   /* Centers the grid horizontally within its section */
+  justify-items: center; /* Centers cards inside their grid tracks */
 }
 
 .card {
-    width: 280px;
+    width: 100%;
+    max-width: 280px;
     background: #f5f0e6;
     border-radius: 15px;
     overflow: hidden;
