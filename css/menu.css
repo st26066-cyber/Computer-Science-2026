@@ -123,8 +123,9 @@ color: #8b4513;
         font-size: 18px;
     }
 
-    h2 {
-        font-size: 26px;
+    .card h2 {
+        font-size: 20px;
+        margin-top: 15px
     }
 
     .menu-grid {
@@ -181,9 +182,10 @@ color: #8b4513;
     object-fit: cover;
 }
 
-.card h3 {
+.card h2 {
     color: #5a4a42;
     margin-top: 15px;
+    font-size: 20px;
 }
 
 .card p {
