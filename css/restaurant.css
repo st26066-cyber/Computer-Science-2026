@@ -131,7 +131,7 @@ color: #8b4513;
         font-size: 18px;
     }
 
-    h2 {
+    h1, h2 {
         font-size: 26px;
     }
 
@@ -177,13 +177,13 @@ box-shadow: 0 6px 20px rgba(0,0,0,0.1);
     border-radius: 15px;
 }
 
-h2{
+h1, h2{
     font-family: 'Playfair Display', serif;
     color: #6b1f1f;
     text-align: center;
 }
 
-h2 {
+h1 {
     font-size: 36px;
 }
 
